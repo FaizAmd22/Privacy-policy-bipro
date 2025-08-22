@@ -19,7 +19,6 @@
     a:hover { text-decoration: underline; }
     footer { padding: 24px; color: #666; font-size: 14px; }
     ul { padding-left: 20px; }
-    code.badge { background:#f2f4ff; border:1px solid #dfe6ff; padding:2px 6px; border-radius:6px; font-size: 13px; }
   </style>
 </head>
 <body>
@@ -33,7 +32,7 @@
   </header>
   <main>
     <div class="card">
-      <p>This Privacy Policy explains how we collect, use, store, protect, and/or share your information when you use the <strong>BiPro</strong> application ("Application"). By using the Application, you agree to these privacy practices.</p>
+      <p>This Privacy Policy explains how we collect, use, store, protect, and/or share your information when you use the <strong>BiPro</strong> application (“Application”). By using the Application, you agree to these privacy practices.</p>
       <p>We comply with applicable laws and regulations, including Law No. 27 of 2022 on Personal Data Protection (PDP Law) and Apple platform guidelines.</p>
     </div>
 
@@ -41,23 +40,22 @@
     <p>BiPro is a cloud-based HR application designed to support employee needs, including attendance (with face photo verification), leave/permission requests, reimbursement claims, status notifications, performance monitoring, and scheduling. The app also supports QR code scanning for certain actions configured by your company.</p>
 
     <h2>2) Data We Process</h2>
-    <p>The categories of data we may process depend on the features you use and your company’s configuration:</p>
     <ul>
       <li><strong>Identity & Account Data</strong>: name, email, phone number, employee ID, division, position.</li>
-      <li><strong>Face Data (Photos)</strong>: a photo of your face captured at check-in/check-out to verify attendance. <em>We do not sell or use face photos for marketing or advertising.</em></li>
-      <li><strong>Optional Biometric Representation</strong>: if enabled by your company, a mathematical representation (embedding/template) derived from your face photo for automated matching. Otherwise, only the photo is stored with your attendance record.</li>
-      <li><strong>Attendance & Location Data</strong>: clock-in/clock-out time, device time zone, and location (precise/approximate) for geofence validation in accordance with your company policy.</li>
-      <li><strong>Request Data</strong>: leave/permission requests and history; reasons; attachments (e.g., documents or photos).</li>
-      <li><strong>Reimbursement Data</strong>: claim details, amounts, and supporting documents (e.g., receipt photos/files).</li>
-      <li><strong>Photos/Media & Camera</strong>: camera and photo library access for: (1) face photo during attendance, (2) capturing/uploading HR documents (e.g., ID/receipts), (3) scanning QR codes for attendance or task actions, and (4) updating your profile picture.</li>
+      <li><strong>Face Data (Photos)</strong>: a photo of your face captured at check-in/check-out to verify attendance. We do not sell or use face photos for marketing or advertising.</li>
+      <li><strong>Optional Biometric Representation</strong>: if enabled by your company, a mathematical representation (embedding/template) derived from your face photo for automated matching.</li>
+      <li><strong>Attendance & Location Data</strong>: clock-in/out time, device time zone, location (precise/approximate) for geofence validation.</li>
+      <li><strong>Request Data</strong>: leave/permission requests, reasons, attachments.</li>
+      <li><strong>Reimbursement Data</strong>: claim details, amounts, and supporting documents.</li>
+      <li><strong>Photos/Media & Camera</strong>: camera and photo library access for face photo, HR documents, QR codes, and profile updates.</li>
       <li><strong>Push Notifications</strong>: device tokens to send request statuses and announcements.</li>
-      <li><strong>Device & Diagnostic Data</strong>: device model, OS version, crash logs, and performance data to maintain app stability.</li>
+      <li><strong>Device & Diagnostic Data</strong>: device model, OS version, crash logs, and performance data.</li>
     </ul>
 
     <h2>3) Purposes of Processing</h2>
     <ul>
       <li>Provide core features: attendance (face photo verification), leave/permission requests, reimbursement, schedules, and performance display.</li>
-      <li>Support QR-based flows configured by your company (e.g., attendance or task confirmation).</li>
+      <li>Support QR-based flows.</li>
       <li>Employee account authentication and management.</li>
       <li>Send push notifications related to statuses and company announcements.</li>
       <li>Technical/diagnostic analytics and service quality improvement.</li>
@@ -67,84 +65,68 @@
     <h2>4) Legal Basis</h2>
     <p>We process data based on: (i) consent (e.g., camera/location access, biometric processing where applicable); (ii) performance of employment/service agreements with your company; (iii) legitimate interests to operate and secure the Application; and/or (iv) legal obligations.</p>
 
-
     <h2>5) Device Permissions & Explanations</h2>
     <ul>
-      <li><strong>Camera</strong> — used to: (1) take your face photo for attendance, (2) capture HR documents (e.g., ID cards, receipts) for upload, (3) scan QR codes for attendance or task actions, and (4) optionally capture images for other HR-related workflows. <em>Example:</em> when you clock in, BiPro uses the camera to take your face photo, verify it against the registered template, store it securely in the cloud, and display it on the HR dashboard for attendance validation.</li>
-      <li><strong>Photo Library (Read)</strong> — when you choose images for attachments or to update your profile photo.</li>
-      <li><strong>Photo Library (Add/Write)</strong> — only if you choose to save/export photos from the app to your library.</li>
-      <li><strong>Location (When In Use)</strong> — to verify that you are within your office geofence when checking in/out.</li>
-      <li><strong>Location (Always/Background)</strong> — <em>only if your company enables geofenced auto-logging</em> to detect arrival/leave events. You can disable this in device settings.</li>
+      <li><strong>Camera</strong> — used to: take your face photo for attendance, capture HR documents (ID/receipts), scan QR codes, and update profile pictures. Example: face photo is captured at check-in, verified against registered template, stored securely in cloud, and displayed in HR dashboard.</li>
+      <li><strong>Photo Library (Read)</strong> — when selecting images for attachments or profile update.</li>
+      <li><strong>Photo Library (Add/Write)</strong> — only if you choose to save/export photos from the app.</li>
+      <li><strong>Location (When In Use)</strong> — verify presence inside office geofence at check-in/out.</li>
+      <li><strong>Location (Always/Background)</strong> — only if geofenced auto-logging is enabled.</li>
       <li><strong>Notifications</strong> — to receive status updates and announcements.</li>
     </ul>
-    <p>You can manage permissions at any time through your device settings.</p>
-
 
     <h2>6) Use of Face Data (Detailed)</h2>
-    <p><strong>What we collect:</strong> a face photo captured at the time of attendance. If your company enables automated matching, we may create and store a biometric template (a mathematical representation of facial features) derived from that photo.</p>
-    <p><strong>How we use it:</strong> exclusively to verify that the correct employee performed the attendance action, to attach photo proof in HR records, and to display the attendance photo securely in the HR dashboard. If your company enables automated matching, we may also create and store a biometric template (a mathematical representation of facial features) derived from that photo.</p>
-    <p><strong>Sharing:</strong> we do not share face data with third parties. Limited access is provided to authorized HR administrators and our contracted processors (e.g., cloud hosting) under strict data processing agreements.</p>
-    <p><strong>Storage:</strong> data is stored securely on our servers <em>(hosted in [CLOUD PROVIDER & REGION])</em>, with encryption in transit and at rest, role-based access control, and audit logging.</p>
-    <p><strong>Retention:</strong> attendance photos and any biometric templates are retained for the minimum period necessary under HR policy and law, typically up to <strong>[RETENTION_PERIOD, e.g., 24 months]</strong>, or <strong>[X days]</strong> after account deactivation—whichever is earlier—after which they are permanently deleted.</p>
-    <p><strong>Your choices:</strong> contact your HR administrator or us to request access, correction, or deletion, subject to legal and HR record-keeping requirements.</p>
-
+    <p><strong>What we collect:</strong> face photo at attendance. Optional biometric template for automated matching.</p>
+    <p><strong>How we use it:</strong> verify correct employee performed attendance, attach proof in HR records, display securely in HR dashboard.</p>
+    <p><strong>Sharing:</strong> not shared with third parties. Limited access to HR admins and contracted processors under strict agreements.</p>
+    <p><strong>Storage:</strong> securely on <strong>AWS (ap-southeast-1)</strong> with encryption in transit/at rest, role-based access, audit logging.</p>
+    <p><strong>Retention:</strong> photos/biometric templates retained up to <strong>24 months</strong>, or <strong>30 days</strong> after account deactivation—whichever is earlier, then permanently deleted.</p>
+    <p><strong>Your choices:</strong> contact HR admin or us to request access, correction, or deletion.</p>
 
     <h2>7) Data Sharing</h2>
-    <p>We do not sell your personal data. We may share limited data with:</p>
     <ul>
-      <li><strong>Treffix</strong> (employer) as the controller/party responsible for HR operations.</li>
-      <li><strong>Service Providers</strong> (processors) such as cloud hosting, database, push delivery (APNs), and crash reporting/technical analytics, bound by data processing agreements and confidentiality obligations.</li>
+      <li><strong>Treffix</strong> (employer) as controller for HR operations.</li>
+      <li><strong>Service Providers</strong> (cloud hosting, database, APNs, crash reporting) under strict agreements.</li>
     </ul>
 
-
     <h2>8) Cross-Border Transfers</h2>
-    <p>As a cloud-based service, data may be processed or transferred to other jurisdictions. We ensure adequate protection consistent with the PDP Law and applicable regulations.</p>
-
+    <p>Data may be processed/transferred to other jurisdictions with adequate protection per PDP Law.</p>
 
     <h2>9) Retention & Security</h2>
     <ul>
-      <li>Data is retained as long as the account is active or as needed for the purposes outlined, unless required longer by law or your company’s policy.</li>
-      <li>Attendance photos/biometric templates follow the retention in Section 6.</li>
-      <li>We implement reasonable technical and organizational measures (encryption in transit/at rest, role-based access control, reviews and audits) to protect data.</li>
-      <li>No method is 100% secure; we continuously improve our security standards.</li>
+      <li>Data retained as long as account is active or per company/law requirements.</li>
+      <li>Attendance photos/biometric templates follow Section 6 retention.</li>
+      <li>Technical and organizational measures applied for security.</li>
+      <li>No method is 100% secure; security is continuously improved.</li>
     </ul>
 
-
     <h2>10) Data Subject Rights</h2>
-    <p>You have rights to access, correct, update, object, restrict, withdraw consent, transfer, or request deletion of your personal data to the extent permitted by law. Requests may be submitted via the contact below or through your company’s HR administrator.</p>
-
+    <p>Access, correction, update, object, restrict, withdraw consent, transfer, or request deletion via HR admin or contact below.</p>
 
     <h2>11) Children</h2>
-    <p>The Application is intended for employee (adult) use and is not designed for individuals under 18 years old.</p>
-
+    <p>App intended for employee (adult) use; not for under 18.</p>
 
     <h2>12) Tracking & Advertising</h2>
-    <p>BiPro does not engage in cross-app/website tracking for advertising, does not use IDFA, and does not serve targeted ads. If tracking becomes necessary in the future, we will comply with App Tracking Transparency (ATT) and obtain consent in advance.</p>
-
+    <p>No cross-app/website tracking, no IDFA, no ads. ATT framework will be followed if needed in future.</p>
 
     <h2>13) Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. Material changes will be communicated via updates on this page and/or through the Application. The effective date will be updated at the top.</p>
-
+    <p>Updates communicated via page/app. Effective date updated accordingly.</p>
 
     <h2>14) Contact</h2>
-    <p>For questions, data subject rights requests, or complaints, please contact:</p>
     <ul>
       <li>Email: <strong>faizhal@treffix.id</strong></li>
       <li>Address: <strong>Treffix</strong></li>
       <li>Website: <a href="https://treffix.id" target="_blank" rel="noopener">https://treffix.id</a></li>
     </ul>
 
-
     <div class="card">
       <strong>Quote for App Review (Face Data):</strong>
-      <p><em>“When you check in or out using the attendance feature, BiPro captures your face photo via the camera. This photo is stored securely in the cloud and displayed in the HR dashboard to confirm that the correct employee performed the attendance action. If enabled by your company, a biometric template (mathematical representation) may also be created from this photo to support automated matching. These data are used only for attendance verification, are not shared with third parties, and are retained for up to [RETENTION_PERIOD] or [X days] after account deactivation—whichever is earlier—after which they are permanently deleted.”</em></p>
+      <p><em>“When you check in or out using attendance, BiPro captures your face photo via camera. This photo is stored securely on <strong>AWS (ap-southeast-1)</strong> and displayed in HR dashboard to confirm correct employee attendance. If enabled, a biometric template may be created to support automated matching. These data are used only for attendance verification, not shared with third parties, and retained for up to <strong>24 months</strong> or <strong>30 days</strong> after account deactivation—whichever is earlier—then permanently deleted.”</em></p>
     </div>
-
 
     <p class="meta">Last updated: August 22, 2025</p>
   </main>
   <footer>
     &copy; 2025 PT Lalu Lintas Lancar. All rights reserved.
   </footer>
-</body>
-</html>
+</body
