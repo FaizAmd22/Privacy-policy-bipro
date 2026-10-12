@@ -26,8 +26,8 @@
     <h1>Privacy Policy</h1>
     <div class="meta">
       For: <strong>BiPro</strong><br/>
-      Data Controller: <strong>Treffix</strong><br/>
-      Effective Date: <strong>August 22, 2025</strong>
+      Provided by: <strong>Treffix</strong><br/>
+      Effective Date: <strong>October 12, 2026</strong>
     </div>
   </header>
   <main>
@@ -37,19 +37,19 @@
     </div>
 
     <h2>1) Application Overview</h2>
-    <p>BiPro is a cloud-based HR application designed to support employee needs, including attendance (with face photo verification), leave/permission requests, reimbursement claims, status notifications, performance monitoring, and scheduling. The app also supports QR code scanning for certain actions configured by your company.</p>
+    <p>BiPro is a cloud-based HR application that companies use to support their employees, including attendance (with face photo verification), leave/permission requests, reimbursement claims, status notifications, performance monitoring, and scheduling. The app also supports QR code scanning for certain actions configured by your company.</p>
 
     <h2>2) Data We Process</h2>
     <ul>
       <li><strong>Identity & Account Data</strong>: name, email, phone number, employee ID, division, position.</li>
-      <li><strong>Face Data (Photos)</strong>: a photo of your face captured at check-in/check-out to verify attendance. We do not sell or use face photos for marketing or advertising.</li>
+      <li><strong>Face Data (Photos)</strong>: a photo of your face captured at check-in/check-out to verify attendance, and when you register your face during account setup. The photo is also used as your profile picture. We do not sell or use face photos for marketing or advertising.</li>
       <li><strong>Optional Biometric Representation</strong>: if enabled by your company, a mathematical representation (embedding/template) derived from your face photo for automated matching.</li>
       <li><strong>Attendance & Location Data</strong>: clock-in/out time, device time zone, location (precise/approximate) for geofence validation.</li>
       <li><strong>Request Data</strong>: leave/permission requests, reasons, attachments.</li>
       <li><strong>Reimbursement Data</strong>: claim details, amounts, and supporting documents.</li>
       <li><strong>Photos/Media & Camera</strong>: camera and photo library access for face photo, HR documents, QR codes, and profile updates.</li>
       <li><strong>Push Notifications</strong>: device tokens to send request statuses and announcements.</li>
-      <li><strong>Device & Diagnostic Data</strong>: device model, OS version, crash logs, and performance data.</li>
+      <li><strong>Device Data</strong>: device model and OS version.</li>
     </ul>
 
     <h2>3) Purposes of Processing</h2>
@@ -58,7 +58,7 @@
       <li>Support QR-based flows.</li>
       <li>Employee account authentication and management.</li>
       <li>Send push notifications related to statuses and company announcements.</li>
-      <li>Technical/diagnostic analytics and service quality improvement.</li>
+      <li>Service quality, troubleshooting, and security.</li>
       <li>Compliance with applicable laws and HR policies.</li>
     </ul>
 
@@ -71,22 +71,22 @@
       <li><strong>Photo Library (Read)</strong> — when selecting images for attachments or profile update.</li>
       <li><strong>Photo Library (Add/Write)</strong> — only if you choose to save/export photos from the app.</li>
       <li><strong>Location (When In Use)</strong> — verify presence inside office geofence at check-in/out.</li>
-      <li><strong>Location (Always/Background)</strong> — only if geofenced auto-logging is enabled.</li>
+      <li><strong>Face ID / Touch ID</strong> — optional, for faster sign-in. Authentication is handled entirely by iOS; the app only receives a success or failure result and never accesses your face or fingerprint data.</li>
       <li><strong>Notifications</strong> — to receive status updates and announcements.</li>
     </ul>
 
     <h2>6) Use of Face Data (Detailed)</h2>
-    <p><strong>What we collect:</strong> face photo at attendance. Optional biometric template for automated matching.</p>
-    <p><strong>How we use it:</strong> verify correct employee performed attendance, attach proof in HR records, display securely in HR dashboard.</p>
+    <p><strong>What we collect:</strong> face photo at attendance and at face registration during account setup. Optional biometric template for automated matching. While you take the photo, the app detects your face on the device only to help you position your face and to confirm a live person is in front of the camera; this on-device processing is not stored or sent anywhere.</p>
+    <p><strong>How we use it:</strong> verify that the correct employee performed attendance, attach proof to HR records, display it securely in the HR dashboard, and show it as the employee's profile picture.</p>
     <p><strong>Sharing:</strong> not shared with third parties. Limited access to HR admins and contracted processors under strict agreements.</p>
     <p><strong>Storage:</strong> securely on <strong>AWS (ap-southeast-1)</strong> with encryption in transit/at rest, role-based access, audit logging.</p>
-    <p><strong>Retention:</strong> photos/biometric templates retained up to <strong>24 months</strong>, or <strong>30 days</strong> after account deactivation—whichever is earlier, then permanently deleted.</p>
+    <p><strong>Retention:</strong> face photos and biometric templates are kept only while the employee's account is active. When an employee leaves the company and their account is deleted, these data are permanently deleted within <strong>3 to 7 days</strong>.</p>
     <p><strong>Your choices:</strong> contact HR admin or us to request access, correction, or deletion.</p>
 
     <h2>7) Data Sharing</h2>
     <ul>
-      <li><strong>Treffix</strong> (employer) as controller for HR operations.</li>
-      <li><strong>Service Providers</strong> (cloud hosting, database, APNs, crash reporting) under strict agreements.</li>
+      <li><strong>Your employer</strong> (the company using BiPro) as the controller of its HR data, and <strong>Treffix</strong> as the provider that processes it on the employer's behalf.</li>
+      <li><strong>Service Providers</strong> (cloud hosting on AWS, database, OneSignal and Apple Push Notification service for notifications) under strict agreements.</li>
     </ul>
 
     <h2>8) Cross-Border Transfers</h2>
@@ -95,7 +95,7 @@
     <h2>9) Retention & Security</h2>
     <ul>
       <li>Data retained as long as account is active or per company/law requirements.</li>
-      <li>Attendance photos/biometric templates follow Section 6 retention.</li>
+      <li>Face photos/biometric templates follow Section 6 retention.</li>
       <li>Technical and organizational measures applied for security.</li>
       <li>No method is 100% secure; security is continuously improved.</li>
     </ul>
@@ -121,12 +121,13 @@
 
     <div class="card">
       <strong>Quote for App Review (Face Data):</strong>
-      <p><em>“When you check in or out using attendance, BiPro captures your face photo via camera. This photo is stored securely on <strong>AWS (ap-southeast-1)</strong> and displayed in HR dashboard to confirm correct employee attendance. If enabled, a biometric template may be created to support automated matching. These data are used only for attendance verification, not shared with third parties, and retained for up to <strong>24 months</strong> or <strong>30 days</strong> after account deactivation—whichever is earlier—then permanently deleted.”</em></p>
+      <p><em>“When you check in or out using attendance, BiPro captures your face photo via camera. This photo is stored securely on <strong>AWS (ap-southeast-1)</strong>, displayed in the HR dashboard to confirm correct employee attendance, and used as your profile picture. If enabled, a biometric template may be created to support automated matching. These data are not shared with third parties, are kept only while your account is active, and are permanently deleted within <strong>3 to 7 days</strong> after you leave the company and your account is deleted.”</em></p>
     </div>
 
-    <p class="meta">Last updated: August 22, 2025</p>
+    <p class="meta">Last updated: October 12, 2026</p>
   </main>
   <footer>
-    &copy; 2025 PT Lalu Lintas Lancar. All rights reserved.
+    &copy; 2026 Treffix. All rights reserved.
   </footer>
-</body
+</body>
+</html>
